@@ -1,0 +1,89 @@
+$bg: #222;
+$bg-inverse: #f5f5f5;
+
+$color: #f2f2f2;
+$color-inverse: black;
+
+$link-color: #b8e8ff;
+$link-color-inverse: #166083;
+
+$border-color: black;
+$border-color-inverse: #ccc;
+
+$green: #8cfb84;
+$green-inverse: green;
+
+.staff-bar {
+  position: relative;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 10px;
+  background: $bg;
+  color: $color;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 12px;
+  border-style: solid;
+  border-color: $border-color;
+  box-shadow: 0 0 5px rgba(0,0,0,.1);
+
+  .octicon {
+    fill: darken($color, 25%);
+  }
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color;
+      text-decoration: underline;
+    }
+  }
+
+  .staff-bar-green {
+    color: $green;
+  }
+
+  &-inverse {
+    background: $bg-inverse;
+    color: $color-inverse;
+    border-color: $border-color-inverse;
+
+    .octicon {
+      fill: lighten($color-inverse, 25%);
+    }
+
+    a {
+      color: $link-color-inverse;
+
+      &:hover {
+        color: $link-color-inverse;
+      }
+    }
+
+    .staff-bar-green {
+      color: $green-inverse;
+    }
+  }
+
+  &-top {
+    border-width: 0 0 1px;
+  }
+
+  &-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-width: 1px 0 0;
+  }
+}
+
+.staff-bar-list {
+  display: flex;
+}
+
+.staff-bar-list-item {
+  padding-right: 15px;
+}
