@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.description = "Show a bar with general project information for administrators."
   spec.license     = "MIT"
 
-  spec.files = `git ls-files`.split("\n")
+  spec.files = Dir["{lib,app}/**/*", "*.md", "LICENSE"]
   spec.require_paths = ["lib"]
 
   spec.add_dependency "rails", ">= 5.0.0"
