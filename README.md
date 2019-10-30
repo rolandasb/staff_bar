@@ -33,12 +33,12 @@ Add this to your `application.css` to use default styles:
 *= require staff_bar
 ```
 
-To show current branch, add staff_bar capistrano tasks in `Capfile`
+To show current branch, add staff_bar capistrano tasks in `Capfile`:
 ```ruby
 require "staff_bar/capistrano"
 ```
 
-This will create `BRANCH` file when depoying, which will staff bar use to show the branch.
+This will create `BRANCH` file when deploying, which will staff bar use to show the branch.
 
 ## Configuration
 
