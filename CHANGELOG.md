@@ -1,5 +1,7 @@
 ### unreleased
 
+### 0.1.1 / October 31, 2019
+
 * Ignore links when using sequential keyboard navigation [Rolandas Barysas]
 
 * Ignore some files in gemspec to reduce file size [Rolandas Barysas]
