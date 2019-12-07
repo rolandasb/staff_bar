@@ -88,3 +88,9 @@ $red-inverse: #e82525;
 .staff-bar-list-item {
   padding-right: 15px;
 }
+
+@media print {
+  .staff-bar {
+    display: none !important;
+  }
+}

@@ -2,6 +2,8 @@
 
 * Added highlight_envs configuration option [Rolandas Barysas]
 
+* Hide staff bar in print mode [Rolandas Barysas]
+
 ### 0.1.1 / October 31, 2019
 
 * Ignore links when using sequential keyboard navigation [Rolandas Barysas]
