@@ -21,6 +21,13 @@ class StaffBar::Test < ActiveSupport::TestCase
     assert_equal "test", StaffBar.environment
   end
 
+  test "highlight_env_class" do
+    assert_equal "", StaffBar.highlight_env_class
+
+    StaffBar.config.highlight_envs = [:production, :test]
+    assert_equal "staff-bar-red", StaffBar.highlight_env_class
+  end
+
   test "time" do
     travel_to Time.zone.parse("2019-10-01 00:00:00") do
       assert_equal "2019-10-01 00:00:00 UTC", StaffBar.time

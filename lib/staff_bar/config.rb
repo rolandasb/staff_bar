@@ -12,12 +12,13 @@ module StaffBar
   end
 
   class Config
-    attr_accessor :links, :theme, :position
+    attr_accessor :links, :theme, :position, :highlight_envs
 
     def initialize
       @links = []
       @theme = :dark
       @position = :bottom
+      @highlight_envs = [:production]
     end
   end
 end

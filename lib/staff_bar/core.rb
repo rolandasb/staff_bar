@@ -32,6 +32,10 @@ module StaffBar
       Rails.env
     end
 
+    def highlight_env_class
+      StaffBar.config.highlight_envs.include?(environment.to_sym) ? "staff-bar-red" : ""
+    end
+
     def time
       Time.current.to_s
     end

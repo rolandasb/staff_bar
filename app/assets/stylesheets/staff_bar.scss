@@ -13,6 +13,9 @@ $border-color-inverse: #ccc;
 $green: #8cfb84;
 $green-inverse: green;
 
+$red: #ff4b4b;
+$red-inverse: #e82525;
+
 .staff-bar {
   position: relative;
   z-index: 9999;
@@ -42,9 +45,8 @@ $green-inverse: green;
     }
   }
 
-  .staff-bar-green {
-    color: $green;
-  }
+  .staff-bar-green { color: $green; }
+  .staff-bar-red   { color: $red; }
 
   &-inverse {
     background: $bg-inverse;
@@ -63,9 +65,8 @@ $green-inverse: green;
       }
     }
 
-    .staff-bar-green {
-      color: $green-inverse;
-    }
+    .staff-bar-green { color: $green-inverse; }
+    .staff-bar-red   { color: $red-inverse; }
   }
 
   &-top {

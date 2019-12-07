@@ -52,6 +52,7 @@ StaffBar.configure do |config|
 
   config.theme = :dark # or :light
   config.position = :bottom # or :top
+  config.highlight_envs = [:production]
 end
 ```
 

@@ -7,7 +7,7 @@
       <div class="staff-bar-list-item"><%= octicon "git-branch" %> <%= StaffBar.branch %></div>
     <% end %>
     <div class="staff-bar-list-item"><%= octicon "ruby" %> ruby-<%= StaffBar.ruby_version %> rails-<%= StaffBar.rails_version %></div>
-    <div class="staff-bar-list-item"><%= octicon "globe" %> <%= StaffBar.environment %></div>
+    <div class="staff-bar-list-item <%= StaffBar.highlight_env_class %>"><%= octicon "globe" %> <%= StaffBar.environment %></div>
     <div class="staff-bar-list-item"><%= octicon "gear" %> <span class="<%= StaffBar.cache_class %>"><%= StaffBar.cache %></span></div>
     <div class="staff-bar-list-item"><%= octicon "clock" %> <%= StaffBar.time %> (<%= StaffBar.time_zone %>)</div>
   </div>
