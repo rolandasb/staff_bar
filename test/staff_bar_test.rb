@@ -13,10 +13,6 @@ class StaffBar::Test < ActiveSupport::TestCase
     assert_equal "foo-branch", StaffBar.branch
   end
 
-  test "rails_version" do
-    assert_equal "6.0.0", StaffBar.rails_version
-  end
-
   test "environment" do
     assert_equal "test", StaffBar.environment
   end
