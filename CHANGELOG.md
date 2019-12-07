@@ -1,5 +1,7 @@
 ### unreleased
 
+### 0.2.0 / December 7, 2019
+
 * Added highlight_envs configuration option [Rolandas Barysas]
 
 * Hide staff bar in print mode [Rolandas Barysas]
