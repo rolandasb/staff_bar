@@ -33,6 +33,7 @@ $red-inverse: #e82525;
 
   .octicon {
     fill: darken($color, 25%);
+    margin-right: 5px;
   }
 
   a {
@@ -87,6 +88,8 @@ $red-inverse: #e82525;
 
 .staff-bar-list-item {
   padding-right: 15px;
+  display: flex;
+  align-items: center;
 }
 
 @media print {
