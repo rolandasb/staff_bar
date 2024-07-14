@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.name        = "staff_bar"
   spec.version     = StaffBar::VERSION
   spec.authors     = ["Rolandas Barysas"]
-  spec.email       = ["rolandas@rolandasb.com"]
-  spec.homepage    = "https://github.com/decentbudget/staff_bar"
+  spec.email       = ["rolandas@barysas.lt"]
+  spec.homepage    = "https://github.com/rolandasb/staff_bar"
   spec.summary     = "Show a bar with general project information for administrators."
   spec.description = "Show a bar with general project information for administrators."
   spec.license     = "MIT"
