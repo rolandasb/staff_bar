@@ -1,5 +1,11 @@
 ### unreleased
 
+### 0.3.0 / July 14, 2024
+
+* Updated octicons to v19
+* Fixed error when octicons_helper is not explicitly included in project gemfile
+* Adjusted light theme link color
+
 ### 0.2.0 / December 7, 2019
 
 * Added highlight_envs configuration option [Rolandas Barysas]
